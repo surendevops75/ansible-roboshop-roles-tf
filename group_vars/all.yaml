@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb-{{ env }}.surendevops.fun #mongodb-dev-surendevops.fun
+MONGODB_HOST: mongodb-{{ env }}.surendevops.fun # mongodb-dev.surendevops.fun
 REDIS_HOST: redis-{{ env }}.surendevops.fun
-CATALOGUE_HOST: catalogue-{{ env }}.surendevops.fun
-CART_HOST: cart-{{ env }}.surendevops.fun
-USER_HOST: user-{{ env }}.surendevops.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.surendevops.fun
+CART_HOST: cart.backend-alb-{{ env }}.surendevops.fun
+USER_HOST: user.backend-alb-{{ env }}.surendevops.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.surendevops.fun
 MYSQL_HOST: mysql-{{ env }}.surendevops.fun
-SHIPPING_HOST: shipping-{{ env }}.surendevops.fun
-PAYMENT_HOST: payment-{{ env }}.surendevops.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.surendevops.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.surendevops.fun
